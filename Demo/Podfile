@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+platform :ios, '11.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+target 'Tags' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Tags
+  pod 'SnapKit'
+  target 'TagsTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TagsUITests' do
+    # Pods for testing
+  end
+
+end

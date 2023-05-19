@@ -1,0 +1,6 @@
+framework module Pods_Tags_TagsUITests {
+  umbrella header "Pods-Tags-TagsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
