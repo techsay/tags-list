@@ -4,20 +4,18 @@ UITableViewCell 嵌套 UICollectionViewCell ，标签列表页，城市列表页
 更复杂的场景需要自行优化。
 
 
+### Swift实现：
+
+[Swift/Tags/ViewController.swift](https://github.com/techsay/tags-list/blob/main/Demo/Tags/ViewController.swift)
+
 
 ### OC实现 ： 
 
-**Demo_OC/TagsList/TagListViewController.m**
+[OC/TagListViewController.m](https://github.com/techsay/Tags/blob/main/Demo/TagsList/TagListViewController.m)
 
 > 1、针对UITableViewCell 嵌入 ScrollView 的场景，因为 ScrollView 高度是动态的，而 ScrollView 中 tags view 根据数量和宽度不同需要自动换行。
 >
 > 2、tags 居左显示，使用 **pod** **'UICollectionViewLeftAlignedLayout'**
-
-
-
-### Swift实现：
-
-**Demo_Swift/Tags/ViewController.swift**
 
 
 
